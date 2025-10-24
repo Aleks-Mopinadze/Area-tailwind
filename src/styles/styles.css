@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+
+@font-face {
+    font-family: 'DMSans';
+    src: url('../static/fonts/DMSans_18pt-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'DMSans';
+    src: url('../static/fonts/DMSans_18pt-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'DMSans';
+    src: url('../static/fonts/DMSans_18pt-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'CrimsonText';
+    src: url('../static/fonts/CrimsonText-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'RedditMono';
+    src: url('../static/fonts/RedditMono-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+
+
+@font-face {
+    font-family: 'RethinkSans';
+    src: url('../static/fonts/RethinkSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'RobotoMono';
+    src: url('../static/fonts/RobotoMono-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'RobotoMono';
+    src: url('../static/fonts/RobotoMono-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@theme {
+    --font-DMSans: 'DMSans';
+    --font-CrimsonText: 'CrimsonText';
+    --font-RobotoMono: 'RobotoMono';
+    --color-limeLight: #8e9c78;
+}

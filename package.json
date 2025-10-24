@@ -1,0 +1,19 @@
+{
+  "name": "lumo-landing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "private": true,
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.16",
+    "aos": "^3.0.0-beta.6",
+    "tailwindcss": "^4.1.16",
+    "vite": "^7.1.12"
+  }
+}

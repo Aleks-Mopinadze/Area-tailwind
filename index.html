@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="src/styles/styles.css">
+</head>
+<body class="font-DMSans font-normal">
+
+
+<header class="pt-5 pb-20 font-DMSans" id="header">
+    <div class="container max-w-[1200px]  mx-auto flex items-center justify-between tracking-tighter">
+        <a class="text-3xl text-black cursor-pointer block w-24">
+            Area
+        </a>
+        <nav class="sticky top-2">
+            <ul class="flex w-100 justify-evenly font-bold text-sm ">
+                <li>
+                    <a href="#" class="">Benefits</a>
+                </li>
+                <li>
+                    <a href="#" class="">Specifications</a>
+                </li>
+                <li>
+                    <a href="#" class="">How-to</a>
+                </li>
+                <li>
+                    <a href="#" class="">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+        <div class=" font-bold text-sm">
+            <button class="cursor-pointer text-white bg-lime-900 px-6 py-3 rounded-[1000px] flex items-center">
+                Learn More
+                <svg class="ml-0.5" width="7" height="20" viewBox="0 0 7 20" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5.01037 11.9877V8.04618L5.64939 8.08576L0.735155 13.0056L0 12.2705L4.91423 7.35626L4.96513 7.99528H1.0066V6.99434L6 7.00565V11.9877H5.01037Z"
+                          fill="white"/>
+                </svg>
+            </button>
+        </div>
+    </div>
+</header>
+
+
+<nav class="sticky top-2 left-3/8 z-50  hidden rounded-[1000px] py-5  max-w-[400px] bg-white/65 backdrop-blur-2xl" id="sticky-nav">
+    <ul class="flex w-100 justify-evenly font-bold text-sm ">
+        <li>
+            <a href="#" class="">Benefits</a>
+        </li>
+        <li>
+            <a href="#" class="">Specifications</a>
+        </li>
+        <li>
+            <a href="#" class="">How-to</a>
+        </li>
+        <li>
+            <a href="#" class="">Contact Us</a>
+        </li>
+    </ul>
+</nav>
+
+<section data-aos="fade-up">
+    <div class="container max-w-[1200px] mx-auto">
+        <h1 class="font-CrimsonText text-[160px] tracking-tighter text-center">Browse everything.</h1>
+        <div class="mt-60 bg-limeLight w-full h-[362px] rounded-4xl">
+            <img src="src/static/images/Ipad.png" class="relative m-auto top-[-165px]" data-aos="fade-up"  alt="Ipad">
+        </div>
+    </div>
+</section>
+
+<section class="pt-12" data-aos="fade-up">
+    <div class="container max-w-[1200px] mx-auto border-b-1 border-b-neutral-200 pb-10">
+        <div class="mb-7 text-gray-500">Trusted by:</div>
+        <div class="flex justify-evenly">
+            <div class="p-5 cursor-pointer">
+                <img src="src/static/images/Logo-1.png" alt="">
+            </div>
+            <div class="p-5 cursor-pointer">
+                <img src="src/static/images/Logo-2.png" alt="">
+            </div>
+            <div class="p-5 cursor-pointer">
+                <img src="src/static/images/Logo-3.png" alt="">
+            </div>
+            <div class="p-5 cursor-pointer">
+                <img src="src/static/images/Logo-4.png" alt="">
+            </div>
+            <div class="p-5 cursor-pointer">
+                <img src="src/static/images/Logo-5.png" alt="">
+            </div>
+            <div class="p-5 cursor-pointer">
+                <img src="src/static/images/Logo-6.png" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="pt-20 pb-15" data-aos="fade-up">
+    <div class="container max-w-[1200px] mx-auto">
+        <div class="mb-12 text-[12px] text-lime-900 font-RobotoMono">Benefits</div>
+        <h2 class="text-6xl font-CrimsonText tracking-[-0.03em] mb-12">We’ve cracked the code.</h2>
+        <div class="text-gray-500 text-base mb-12">Area provides real insights, without the data overload.</div>
+        <div class="flex gap-4 items-center pt-10">
+            <div class="py-10 pr-5 border-t-1 border-t-rose-100">
+                <div class="mb-6">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.05305 3.4998C5.68305 4.8798 5.68305 7.0998 7.05305 8.4698L15.543 16.9498C16.123 17.5398 16.123 18.4998 15.543 19.0698C14.953 19.6598 14.003 19.6598 13.413 19.0698L9.17305 14.8298L10.233 13.7698L6.70305 10.2298L6.34305 10.5898L4.93305 9.1698C4.54305 8.7798 3.91305 8.7798 3.50305 9.1698L2.10305 10.5898C1.71305 10.9998 1.71305 11.6098 2.10305 11.9998L3.50305 13.4098L3.16305 13.7698L6.70305 17.2998L7.76305 16.2398L12.003 20.4998C13.373 21.8498 15.583 21.8498 16.953 20.4998C18.323 19.1198 18.323 16.8998 16.953 15.5398L8.46305 7.0498C7.88305 6.4598 7.88305 5.4998 8.46305 4.9298C9.05305 4.3398 10.003 4.3398 10.593 4.9298L14.833 9.1698L13.773 10.2298L17.303 13.7698L17.663 13.4098L19.073 14.8298C19.463 15.2198 20.103 15.2198 20.503 14.8298L21.903 13.4098C22.293 12.9998 22.293 12.3898 21.903 11.9998L20.503 10.5898L20.843 10.2298L17.303 6.6998L16.243 7.7598L12.003 3.4998C10.633 2.1498 8.42305 2.1498 7.05305 3.4998ZM2.81305 11.2898L4.22305 9.8798L5.64305 11.2898L4.22305 12.7098M18.363 12.7098L19.783 11.2898L21.193 12.7098L19.783 14.1198L18.363 12.7098Z"
+                              fill="black"/>
+                    </svg>
+                </div>
+                <div class="mb-4 font-CrimsonText text-[18px]">
+                    Amplify Insights
+                </div>
+                <div class="text-base text-gray-500 leading-[140%]">
+                    Unlock data-driven decisions with comprehensive analytics, revealing key opportunities for strategic
+                    regional growth.
+                </div>
+            </div>
+            <div class="py-10 pr-5 border-t-1 border-t-rose-100">
+                <div class="mb-6">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15.9 15.39C15.64 14.59 14.89 14 14 14H13V11C13 10.7348 12.8946 10.4804 12.7071 10.2929C12.5196 10.1054 12.2652 10 12 10H6V8H8C8.26522 8 8.51957 7.89464 8.70711 7.70711C8.89464 7.51957 9 7.26522 9 7V5H11C11.5304 5 12.0391 4.78929 12.4142 4.41421C12.7893 4.03914 13 3.53043 13 3V2.59C15.93 3.77 18 6.64 18 10C18 12.08 17.2 13.97 15.9 15.39ZM9 17.93C5.05 17.44 2 14.08 2 10C2 9.38 2.08 8.78 2.21 8.21L7 13V14C7 14.5304 7.21071 15.0391 7.58579 15.4142C7.96086 15.7893 8.46957 16 9 16M10 0C8.68678 0 7.38642 0.258658 6.17317 0.761205C4.95991 1.26375 3.85752 2.00035 2.92893 2.92893C1.05357 4.8043 0 7.34784 0 10C0 12.6522 1.05357 15.1957 2.92893 17.0711C3.85752 17.9997 4.95991 18.7362 6.17317 19.2388C7.38642 19.7413 8.68678 20 10 20C12.6522 20 15.1957 18.9464 17.0711 17.0711C18.9464 15.1957 20 12.6522 20 10C20 8.68678 19.7413 7.38642 19.2388 6.17317C18.7362 4.95991 17.9997 3.85752 17.0711 2.92893C16.1425 2.00035 15.0401 1.26375 13.8268 0.761205C12.6136 0.258658 11.3132 0 10 0Z"
+                              fill="black"/>
+                    </svg>
+                </div>
+                <div class="mb-4 font-CrimsonText text-[18px]">
+                    Control Your Global Presence
+                </div>
+                <div class="text-base text-gray-500 leading-[140%]">
+                    Manage and track satellite offices, ensuring consistent performance and streamlined operations
+                    everywhere.
+                </div>
+            </div>
+            <div class="py-10 pr-5 border-t-1 border-t-rose-100">
+                <div class="mb-6">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9 5C10.0609 5 11.0783 5.42143 11.8284 6.17157C12.5786 6.92172 13 7.93913 13 9C13 10.0609 12.5786 11.0783 11.8284 11.8284C11.0783 12.5786 10.0609 13 9 13C7.93913 13 6.92172 12.5786 6.17157 11.8284C5.42143 11.0783 5 10.0609 5 9C5 7.93913 5.42143 6.92172 6.17157 6.17157C6.92172 5.42143 7.93913 5 9 5ZM9 15C11.67 15 17 16.34 17 19V21H1V19C1 16.34 6.33 15 9 15ZM16.76 5.36C18.78 7.56 18.78 10.61 16.76 12.63L15.08 10.94C15.92 9.76 15.92 8.23 15.08 7.05L16.76 5.36ZM20.07 2C24 6.05 23.97 12.11 20.07 16L18.44 14.37C21.21 11.19 21.21 6.65 18.44 3.63L20.07 2Z"
+                              fill="black"/>
+                    </svg>
+                </div>
+                <div class="mb-4 font-CrimsonText text-[18px]">
+                    Remove Language Barriers
+                </div>
+                <div class="text-base text-gray-500 leading-[140%]">
+                    Adapt to diverse markets with built-in localization for clear communication and enhanced user
+                    experience.
+                </div>
+            </div>
+            <div class="py-10 pr-5 border-t-1 border-t-rose-100">
+                <div class="mb-6">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3 14L3.5 14.07L8.07 9.5C7.89 8.85 8.06 8.11 8.59 7.59C9.37 6.8 10.63 6.8 11.41 7.59C11.94 8.11 12.11 8.85 11.93 9.5L14.5 12.07L15 12C15.18 12 15.35 12 15.5 12.07L19.07 8.5C19 8.35 19 8.18 19 8C19 7.46957 19.2107 6.96086 19.5858 6.58579C19.9609 6.21071 20.4696 6 21 6C21.5304 6 22.0391 6.21071 22.4142 6.58579C22.7893 6.96086 23 7.46957 23 8C23 8.53043 22.7893 9.03914 22.4142 9.41421C22.0391 9.78929 21.5304 10 21 10C20.82 10 20.65 10 20.5 9.93L16.93 13.5C17 13.65 17 13.82 17 14C17 14.5304 16.7893 15.0391 16.4142 15.4142C16.0391 15.7893 15.5304 16 15 16C14.4696 16 13.9609 15.7893 13.5858 15.4142C13.2107 15.0391 13 14.5304 13 14L13.07 13.5L10.5 10.93C10.18 11 9.82 11 9.5 10.93L4.93 15.5L5 16C5 16.5304 4.78929 17.0391 4.41421 17.4142C4.03914 17.7893 3.53043 18 3 18C2.46957 18 1.96086 17.7893 1.58579 17.4142C1.21071 17.0391 1 16.5304 1 16C1 15.4696 1.21071 14.9609 1.58579 14.5858C1.96086 14.2107 2.46957 14 3 14Z"
+                              fill="black"/>
+                    </svg>
+                </div>
+                <div class="mb-4 font-CrimsonText text-[18px]">
+                    Visualize Growth
+                </div>
+                <div class="text-base text-gray-500 leading-[140%]">
+                    Generate precise, visually compelling reports that illustrate your growth trajectories across all
+                    regions.
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="pb-15">
+    <div class="container max-w-[1200px] mx-auto ">
+        <div class="bg-[url(../static/images/landscape.png)] h-[620px] w-full">
+
+        </div>
+    </div>
+</section>
+
+<section class="pt-15 pb-40" data-aos="zoom-in" data-aos-duration="1000">
+    <div class="container max-w-[1200px] mx-auto">
+        <div class="flex gap-5">
+            <div class="border-t-1 border-t-rose-100 pt-15 pb-20">
+                <h3 class="font-CrimsonText text-6xl mb-10">
+                    See the Big Picture
+                </h3>
+                <div class="text-base leading-[140%] mb-10 text-gray-500 pr-20">
+                    Area turns your data into clear, vibrant visuals that show you exactly what's happening in each
+                    region.
+                </div>
+
+                <div>
+                    <div class="py-5 border-t-1 flex border-t-rose-100">
+                        <div class="text-gray-500 text-base mr-7 font-bold">01</div>
+                        <div class="leading-[140%] max-w-[460px] text-[15px]">Spot Trends in Seconds: No more digging
+                            through numbers.
+                        </div>
+                    </div>
+                    <div class="py-5 border-t-1 flex border-t-rose-100">
+                        <div class="text-gray-500 text-base mr-7 font-bold">02</div>
+                        <div class="leading-[140%] max-w-[460px] text-[15px]">Get Everyone on the Same Page: Share
+                            easy-to-understand reports with your team.
+                        </div>
+                    </div>
+                    <div class="py-5 border-t-1 flex border-t-rose-100">
+                        <div class="text-gray-500 text-base mr-7 font-bold">03</div>
+                        <div class="leading-[140%] max-w-[460px] text-[15px]">Make Presentations Pop: Interactive maps
+                            and dashboards keep your audience engaged.
+                        </div>
+                    </div>
+                    <div class="py-5 border-t-1 flex border-t-rose-100">
+                        <div class="text-gray-500 text-base mr-7 font-bold">04</div>
+                        <div class="leading-[140%] max-w-[460px] text-[15px]">Your Global Snapshot: Get a quick, clear
+                            overview of your entire operation.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-10">
+                    <button class="bg-lime-100 rounded-[1000px] font-bold py-[14px] px-[22px] cursor-pointer ">Discover
+                        More
+                    </button>
+                </div>
+            </div>
+            <div>
+                <img class="h-full w-full" src="src/static/images/big-picture.png" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="pb-15" data-aos="fade-up">
+    <div class="container max-w-[1200px] mx-auto">
+        <div class="border-t-1 py-20">
+            <div class="flex flex-col px-3 mx-auto max-w-[720px]">
+                <div class="text-lime-900 text-xs font-RobotoMono mb-14 text-center">Specs</div>
+                <h3 class="text-center text-[60px] font-CrimsonText mb-10">Why Choose Area?</h3>
+                <div class=" text-center text-gray-500 leading-[140%] text-[15px] mb-10">You need a solution that keeps
+                    up. That’s why we developed Area. A developer-friendly approach to streamline your business.
+                </div>
+                <div class="text-center">
+                    <button class="bg-lime-100 rounded-[1000px] font-bold py-[14px] px-[22px] cursor-pointer ">Discover
+                        More
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-3 max-h-[580px]" >
+            <div class="border-1 border-stone-200 rounded-3xl">
+                <div class="text-center border-b-1 border-b-gray-400 text-2xl font-medium py-10 px-6 font-DMSans tracking-[-0.08em]">
+                    Area
+                </div>
+                <div>
+                    <div class="flex items-center py-8 px-7">
+                        <div class="mr-2">
+                            <svg width="11" height="8" viewBox="0 0 11 8" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.2083 0.8225L3.20833 7.8225L0 4.61417L0.8225 3.79167L3.20833 6.17167L9.38583 0L10.2083 0.8225Z"
+                                      fill="#485C11"/>
+                            </svg>
+                        </div>
+                        <div class="font-RobotoMono text-xs ">
+                            Ultra-fast browsing
+                        </div>
+                    </div>
+                    <div class="flex items-center py-8 px-7">
+                        <div class="mr-2">
+                            <svg width="11" height="8" viewBox="0 0 11 8" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.2083 0.8225L3.20833 7.8225L0 4.61417L0.8225 3.79167L3.20833 6.17167L9.38583 0L10.2083 0.8225Z"
+                                      fill="#485C11"/>
+                            </svg>
+                        </div>
+                        <div class="font-RobotoMono text-xs ">
+                            Advanced AI insights
+                        </div>
+                    </div>
+                    <div class="flex items-center py-8 px-7">
+                        <div class="mr-2">
+                            <svg width="11" height="8" viewBox="0 0 11 8" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.2083 0.8225L3.20833 7.8225L0 4.61417L0.8225 3.79167L3.20833 6.17167L9.38583 0L10.2083 0.8225Z"
+                                      fill="#485C11"/>
+                            </svg>
+                        </div>
+                        <div class="font-RobotoMono text-xs ">
+                            Seamless integration
+                        </div>
+                    </div>
+                    <div class="flex items-center py-8 px-7">
+                        <div class="mr-2">
+                            <svg width="11" height="8" viewBox="0 0 11 8" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.2083 0.8225L3.20833 7.8225L0 4.61417L0.8225 3.79167L3.20833 6.17167L9.38583 0L10.2083 0.8225Z"
+                                      fill="#485C11"/>
+                            </svg>
+                        </div>
+                        <div class="font-RobotoMono text-xs ">
+                            Advanced AI insights
+                        </div>
+                    </div>
+                    <div class="flex items-center py-8 px-7">
+                        <div class="mr-2">
+                            <svg width="11" height="8" viewBox="0 0 11 8" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.2083 0.8225L3.20833 7.8225L0 4.61417L0.8225 3.79167L3.20833 6.17167L9.38583 0L10.2083 0.8225Z"
+                                      fill="#485C11"/>
+                            </svg>
+                        </div>
+                        <div class="font-RobotoMono text-xs ">
+                            Ultra-fast browsing
+                        </div>
+                    </div>
+                    <div class="flex items-center py-8 px-7">
+                        <div class="mr-2">
+                            <svg width="11" height="8" viewBox="0 0 11 8" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.2083 0.8225L3.20833 7.8225L0 4.61417L0.8225 3.79167L3.20833 6.17167L9.38583 0L10.2083 0.8225Z"
+                                      fill="#485C11"/>
+                            </svg>
+                        </div>
+                        <div class="font-RobotoMono text-xs ">
+                            Full UTF-8 support
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="border-1 border-transparent">
+                <div class="text-center text-gray-500 border-b-1 border-b-gray-400 text-2xl font-medium py-10 px-6 font-DMSans tracking-[-0.08em]">
+                    WebSurge
+                </div>
+                <div>
+                    <div class="flex items-center py-8 px-7">
+                        <div class="mr-2">
+                            <svg width="11" height="8" viewBox="0 0 11 8" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.2083 0.8225L3.20833 7.8225L0 4.61417L0.8225 3.79167L3.20833 6.17167L9.38583 0L10.2083 0.8225Z"
+                                      fill="#485C11"/>
+                            </svg>
+                        </div>
+                        <div class="font-RobotoMono text-xs ">
+                            Fast browsing
+                        </div>
+                    </div>
+                    <div class="flex items-center py-8 px-7">
+                        <div class="mr-2">
+                            <svg width="11" height="8" viewBox="0 0 11 8" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.2083 0.8225L3.20833 7.8225L0 4.61417L0.8225 3.79167L3.20833 6.17167L9.38583 0L10.2083 0.8225Z"
+                                      fill="#485C11"/>
+                            </svg>
+                        </div>
+                        <div class="font-RobotoMono text-xs ">
+                            Basic AI recommendations
+                        </div>
+                    </div>
+                    <div class="flex items-center py-8 px-7">
+                        <div class="mr-2">
+                            <svg width="11" height="8" viewBox="0 0 11 8" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.2083 0.8225L3.20833 7.8225L0 4.61417L0.8225 3.79167L3.20833 6.17167L9.38583 0L10.2083 0.8225Z"
+                                      fill="#485C11"/>
+                            </svg>
+                        </div>
+                        <div class="font-RobotoMono text-xs ">
+                            Restricts customization
+                        </div>
+                    </div>
+                    <div class="flex items-center py-8 px-7">
+                        <div class="mr-2">
+                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.8515 6.99984L11.0832 10.2315V11.0832H10.2315L6.99984 7.8515L3.76817 11.0832H2.9165V10.2315L6.14817 6.99984L2.9165 3.76817V2.9165H3.76817L6.99984 6.14817L10.2315 2.9165H11.0832V3.76817L7.8515 6.99984Z"
+                                      fill="#6F6F6F"/>
+                            </svg>
+                        </div>
+                        <div class="font-RobotoMono text-xs ">
+                            Basic AI insights
+                        </div>
+                    </div>
+                    <div class="flex items-center py-8 px-7">
+                        <div class="mr-2">
+                            <svg width="11" height="8" viewBox="0 0 11 8" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.2083 0.8225L3.20833 7.8225L0 4.61417L0.8225 3.79167L3.20833 6.17167L9.38583 0L10.2083 0.8225Z"
+                                      fill="#485C11"/>
+                            </svg>
+                        </div>
+                        <div class="font-RobotoMono text-xs ">
+                            Fast browsing
+                        </div>
+                    </div>
+                    <div class="flex items-center py-8 px-7">
+                        <div class="mr-2">
+                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.8515 6.99984L11.0832 10.2315V11.0832H10.2315L6.99984 7.8515L3.76817 11.0832H2.9165V10.2315L6.14817 6.99984L2.9165 3.76817V2.9165H3.76817L6.99984 6.14817L10.2315 2.9165H11.0832V3.76817L7.8515 6.99984Z"
+                                      fill="#6F6F6F"/>
+                            </svg>
+                        </div>
+                        <div class="font-RobotoMono text-xs ">
+                            Potential display errors
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="border-1 border-transparent">
+                <div class="text-center border-b-1 text-gray-500 border-b-gray-400 text-2xl font-medium py-10 px-6 font-DMSans tracking-[-0.08em]">
+                    HyperView
+                </div>
+                <div>
+                    <div class="flex items-center py-8 px-7">
+                        <div class="mr-2">
+                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.8515 7.00008L11.0832 10.2317V11.0834H10.2315L6.99984 7.85175L3.76817 11.0834H2.9165V10.2317L6.14817 7.00008L2.9165 3.76841V2.91675H3.76817L6.99984 6.14841L10.2315 2.91675H11.0832V3.76841L7.8515 7.00008Z"
+                                      fill="#6F6F6F"/>
+                            </svg>
+                        </div>
+                        <div class="font-RobotoMono text-xs ">
+                            Moderate speeds
+                        </div>
+                    </div>
+                    <div class="flex items-center py-8 px-7">
+                        <div class="mr-2">
+                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.8515 7.00008L11.0832 10.2317V11.0834H10.2315L6.99984 7.85175L3.76817 11.0834H2.9165V10.2317L6.14817 7.00008L2.9165 3.76841V2.91675H3.76817L6.99984 6.14841L10.2315 2.91675H11.0832V3.76841L7.8515 7.00008Z"
+                                      fill="#6F6F6F"/>
+                            </svg>
+                        </div>
+                        <div class="font-RobotoMono text-xs ">
+                            No AI assistance
+                        </div>
+                    </div>
+                    <div class="flex items-center py-8 px-7">
+                        <div class="mr-2">
+                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.8515 7.00008L11.0832 10.2317V11.0834H10.2315L6.99984 7.85175L3.76817 11.0834H2.9165V10.2317L6.14817 7.00008L2.9165 3.76841V2.91675H3.76817L6.99984 6.14841L10.2315 2.91675H11.0832V3.76841L7.8515 7.00008Z"
+                                      fill="#6F6F6F"/>
+                            </svg>
+                        </div>
+                        <div class="font-RobotoMono text-xs ">
+                            Steep learning curve
+                        </div>
+                    </div>
+                    <div class="flex items-center py-8 px-7">
+                        <div class="mr-2">
+                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.8515 7.00008L11.0832 10.2317V11.0834H10.2315L6.99984 7.85175L3.76817 11.0834H2.9165V10.2317L6.14817 7.00008L2.9165 3.76841V2.91675H3.76817L6.99984 6.14841L10.2315 2.91675H11.0832V3.76841L7.8515 7.00008Z"
+                                      fill="#6F6F6F"/>
+                            </svg>
+                        </div>
+                        <div class="font-RobotoMono text-xs ">
+                            No AI assistance
+                        </div>
+                    </div>
+                    <div class="flex items-center py-8 px-7">
+                        <div class="mr-2">
+                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.8515 7.00008L11.0832 10.2317V11.0834H10.2315L6.99984 7.85175L3.76817 11.0834H2.9165V10.2317L6.14817 7.00008L2.9165 3.76841V2.91675H3.76817L6.99984 6.14841L10.2315 2.91675H11.0832V3.76841L7.8515 7.00008Z"
+                                      fill="#6F6F6F"/>
+                            </svg>
+                        </div>
+                        <div class="font-RobotoMono text-xs ">
+                            Moderate speeds
+                        </div>
+                    </div>
+                    <div class="flex items-center py-8 px-7">
+                        <div class="mr-2">
+                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.8515 7.00008L11.0832 10.2317V11.0834H10.2315L6.99984 7.85175L3.76817 11.0834H2.9165V10.2317L6.14817 7.00008L2.9165 3.76841V2.91675H3.76817L6.99984 6.14841L10.2315 2.91675H11.0832V3.76841L7.8515 7.00008Z"
+                                      fill="#6F6F6F"/>
+                            </svg>
+                        </div>
+                        <div class="font-RobotoMono text-xs ">
+                            Partial UTF-8 support
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="pt-15 pb-30" data-aos="fade-up">
+    <div class="container max-w-[1200px] mx-auto">
+        <div class="flex">
+            <div>
+                <img src="src/static/images/Image-circles.png" alt="Circle">
+            </div>
+            <div class="py-30 pl-12 max-w-[590px]">
+                <div>
+                    <div class="mb-12 font-CrimsonText text-[40px] leading-[105%]">
+                        “I was skeptical, but Area has completely transformed the way I manage my business. The data
+                        visualizations are so clear and intuitive, and the platform is so easy to use. I can't imagine
+                        running my company without it.”
+                    </div>
+                    <div>
+                        <div class="mb-2">John Smith</div>
+                        <div class="text-lime-900 font-RobotoMono">Head of Data</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="pt-20 pb-15" data-aos="fade-up">
+    <div class="container max-w-[1200px] mx-auto">
+        <div>
+            <div class="flex justify-between items-center mb-20">
+                <div class="font-CrimsonText text-[60px] ">Map Your Success</div>
+                <div>
+                    <button class="bg-lime-100 rounded-[1000px] font-bold py-[14px] px-[22px] cursor-pointer ">Discover
+                        More
+                    </button>
+                </div>
+            </div>
+            <div class="flex gap-x-5">
+                <div class="border-t-1 border-t-gray-200 pt-15  pb-5">
+                    <div class="mb-15 text-[80px] text-gray-400">01</div>
+                    <div class="font-CrimsonText text-[18px] mb-5">Get Started</div>
+                    <div class="text-gray-500">With our intuitive setup, you’re up and running in minutes.</div>
+                </div>
+                <div class="border-t-1 border-t-gray-200 pt-15  pb-5">
+                    <div class="mb-15 text-[80px] text-gray-400">02</div>
+                    <div class="font-CrimsonText text-[18px] mb-5">Customize and Configure</div>
+                    <div class="text-gray-500">Adapt Area to your specific requirements and preferences.</div>
+                </div>
+                <div class="border-t-1 border-t-gray-200 pt-15  pb-5">
+                    <div class="mb-15 text-[80px] text-gray-400">03</div>
+                    <div class="font-CrimsonText text-[18px] mb-5">Grow Your Business</div>
+                    <div class="text-gray-500">Make informed decisions to exceed your goals.</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="pb-10 pt-15 fade-right" >
+    <div class="container max-w-[1200px] mx-auto ">
+        <div class="bg-[url(../static/images/landscape-2.png)] h-[620px] w-full rounded-3xl">
+
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container max-w-[1200px] mx-auto">
+        <div class="max-w-[600px] py-30 mx-auto" data-aos="fade-up">
+            <h3 class="text-center font-CrimsonText text-[60px] mb-10">Connect with us</h3>
+            <div class="text-[15px] text-gray-500 leading-[140%] mb-10 text-center">Schedule a quick call to learn how Area can turn your regional data into a powerful advantage.</div>
+            <div class="font-bold text-sm text-white">
+                <button class="cursor-pointer bg-lime-900 px-6 py-3 rounded-[1000px] w-full text-center flex items-center justify-center">
+                    Learn More
+                    <svg class="ml-0.5" width="7" height="20" viewBox="0 0 7 20" fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.01037 11.9877V8.04618L5.64939 8.08576L0.735155 13.0056L0 12.2705L4.91423 7.35626L4.96513 7.99528H1.0066V6.99434L6 7.00565V11.9877H5.01037Z"
+                              fill="white"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<footer class="pt-10 pb-5" >
+    <div class="container max-w-[1200px] mx-auto">
+        <nav class="mb-20">
+            <ul class="flex max-w-[253px] justify-between font-bold text-sm ">
+                <li>
+                    <a href="#" class="">Benefits</a>
+                </li>
+                <li>
+                    <a href="#" class="">Specifications</a>
+                </li>
+                <li>
+                    <a href="#" class="">How-to</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="text-lime-900 flex justify-between items-baseline-last gap-10">
+            <div>
+                <svg width="32" height="70" viewBox="0 0 32 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M22.3379 21.5869L31.751 32.6748L27.9258 35.9121L22.3379 29.3125V45H24.8379V70H19.8379V45H17.3379V15H22.3379V21.5869ZM12.4248 44.999L7.83789 69.999H2.75L7.33789 44.999H12.4248ZM4.6748 35.8877L0 34.1123L7.22461 15H12.5752L4.6748 35.8877ZM17.3389 9.9502H12.3389V0H17.3389V9.9502Z" fill="black" />
+                </svg>
+            </div>
+            <div class="w-full">
+                <span class="mr-4">© Area.</span>
+                <span>2025</span>
+            </div>
+            <div class="text-nowrap">
+                All Rights Reserved
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="index.js" type="module"></script>
+</body>
+</html>
